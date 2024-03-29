@@ -1,33 +1,37 @@
 body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
-.launcher {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1f1f1f;
+.container {
+    text-align: center;
+    margin-top: 100px;
 }
 
-.launcher-buttons {
-    display: flex;
+.button-container {
+    margin-top: 50px;
 }
 
 button {
     padding: 10px 20px;
-    margin: 0 10px;
     font-size: 18px;
-    background-color: #333;
+    margin: 0 10px;
+    background-color: #4CAF50;
     color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #45a049;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
 }
