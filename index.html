@@ -1,22 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Unblocker</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TBD name</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional CSS styles specific to this page */
+    body {
+      overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+
+    /* Hero Section styles */
+    .hero {
+      background: url('hero-background.jpg') no-repeat center center/cover;
+      position: relative;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero .text-overlay {
+      text-align: center;
+      color: #ffffff; /* Stardust White */
+    }
+
+    .hero h1 {
+      font-size: 64px;
+      font-weight: bold;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5); /* Cosmic Black */
+    }
+
+    .hero p {
+      font-size: 24px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Cosmic Black */
+    }
+
+    /* Featured Games Carousel styles */
+    .carousel {
+      padding: 50px 0;
+      background-color: #121212; /* Cosmic Black */
+      text-align: center;
+    }
+
+    .carousel h2 {
+      color: #ffffff; /* Stardust White */
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    /* Game Pages styles */
+    .game-page {
+      padding: 50px 0;
+      background-color: #0a0a0a; /* Deeper Cosmic Black */
+      text-align: center;
+    }
+
+    .game-page h2 {
+      color: #ffffff; /* Stardust White */
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #000000; /* Cosmic Black */
+      color: #ffffff; /* Stardust White */
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-link {
+      color: #ffffff; /* Stardust White */
+      text-decorationebo: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .footer-link:hover {
+      color: #f4c2c2; /* Nebula Pink */
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Game Unblocker</h1>
-        <div class="button-container">
-            <button id="homeBtn">Home</button>
-            <button id="gamesBtn">Games</button>
-            <button id="appsBtn">Apps</button>
-            <button id="settingsBtn">Settings</button>
-        </div>
-    </div>
+  <!-- Header and Navigation Bar -->
+  <header>
+    <div class="logo">TBD Name</div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Apps</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <script src="script.js"></script>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="text-overlay">
+      <h1>TBD Name</h1>
+      <p>Game Unblocker Reimagined</p>
+    </div>
+  </section>
+
+  <!-- Featured Games Carousel -->
+  <section class="carousel">
+    <h2>Featured Games</h2>
+    <!-- Carousel content here -->
+  </section>
+
+  <!-- Game Pages -->
+  <section class="game-page">
+    <h2>Explore Our Games</h2>
+    <!-- Game page content here -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <a href="#" class="footer-link">Contact Us</a>
+      <a href="#" class="footer-link">Privacy Policy</a>
+      <span class="copyright">&#169; Reboot Respawn 2024</span>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="scripts.js"></script>
 </body>
 </html>
